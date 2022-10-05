@@ -154,3 +154,14 @@
         background: #e0e0e0;
         height: 4px;
     }
+
+
+i.fas.fa-trash-alt,.comment-content [href^="#"],
+.prevsibling.col-md-6,
+.prevsibling.col-md-6 a,
+.nextsibling.text-right.col-md-6,
+.nextsibling.text-right.col-md-6 a,
+.comment-box__message-partial.comment-content a {
+    font-size: 13px;
+    color: black;
+}
