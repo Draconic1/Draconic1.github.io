@@ -36,7 +36,7 @@
     a:link {
         color: #707070;
     } 
-    a:hover {
+       a:visited, a:focus, a:hover {
         color: #2e2e2e;
     }
     
@@ -156,12 +156,3 @@
     }
 
 
-i.fas.fa-trash-alt,.comment-content [href^="#"],
-.prevsibling.col-md-6,
-.prevsibling.col-md-6 a,
-.nextsibling.text-right.col-md-6,
-.nextsibling.text-right.col-md-6 a,
-.comment-box__message-partial.comment-content a {
-    font-size: 13px;
-    color: black;
-}
