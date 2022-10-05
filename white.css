@@ -1,0 +1,155 @@
+
+@media (min-width: 1024px) {
+    div#app {
+        width: auto;
+        height: 90%;
+        max-width: 1650px;
+        min-width: 1150px;	
+        padding-right: 50px;
+        padding-left: 50px; 
+    }
+    
+    .content {
+        margin-left: 20px; 
+    }}
+    
+    @media (max-width: 700px) {
+    div#app {
+        width: 100%;
+        height: 90%;
+    }
+    
+    .content {
+        width: 100%;
+    }}
+    
+    .content {
+        position: relative;
+        padding-top: 20px;
+        border-radius: 20px;
+        border: 3px solid #ededed;
+        padding: 10px;
+        color: #2e2e2e;
+    }
+    
+    a:link {
+        color: #707070;
+    } 
+    a:hover {
+        color: #2e2e2e;
+    }
+    
+    .left-menu {
+        border: unset !important;
+    }
+    
+    .left-menu-content {
+        border: unset !important;
+    }
+    
+    h3.left-menu-text {
+        color: #707070 !important;
+        font-size: 16px;
+        padding: 3px;
+        padding-left: 10px;
+    }
+    
+    /*Скроллбар*/
+    
+    ::-webkit-scrollbar {
+    width: 14px;
+    height: 6px;
+    }
+    
+    ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border: 4px solid #f8f8f8;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid #f8f8f8;
+    cursor: pointer;
+    border-radius: 8px;
+    }
+    ::-webkit-scrollbar-track {
+    background: #2e2e2e;
+    border: 6px solid #f8f8f8;
+    border-top: 10px solid #f8f8f8;
+    border-bottom: 10px solid #f8f8f8;
+    }
+    
+    /*Плеер*/
+    
+    div#beon-fnplayer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #ffffff80;
+    }
+    
+    div#fnplayer-slider {
+        height: 4px;
+        background: #e0e0e0;
+        margin-right: 20px;
+    }
+    
+    div#fnplayer-slider-inner {
+        position: absolute;
+        top: -4px;
+        background: transparent;
+        border-right: 2px solid #424242;
+    }
+    
+    div#fnplayer-slider span {
+        font-size: 0;
+    }
+    
+    #fnplayer-play {
+        border: none !important;
+        background: url(https://img.icons8.com/small/2x/circled-play.png) no-repeat center / contain !important;
+        width: 25px !important;
+        height: 16px !important;
+    }
+    
+    #fnplayer-play.paused {
+        border: none !important;
+        background: url(https://img.icons8.com/small/2x/circled-pause.png) no-repeat center / contain !important;
+        width: 25px !important;
+        height: 16px !important;
+    }
+    
+    button#fnplayer-stop {
+        border: none !important;
+        background: url(https://img.icons8.com/small/2x/multiply-2.png) no-repeat center / contain !important;
+        width: 25px !important;
+        height: 16px !important;
+    }
+    
+    div#fnplayer-volume-mask {
+        border: none;
+        position: relative;
+    }
+    
+    
+    div#fnplayer-volume-mask:before {
+        content: 'volume';
+        font-size: 0;
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: -17px;
+        top: -10px;
+        background: url(https://img.icons8.com/small/2x/low-volume.png) no-repeat center / contain;
+    }
+    
+    div#fnplayer-volume-inner {
+        background: #636363;
+        height: 4px;
+    }
+    
+    div#fnplayer-volume {
+        background: #e0e0e0;
+        height: 4px;
+    }
