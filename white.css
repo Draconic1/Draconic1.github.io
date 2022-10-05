@@ -22,50 +22,6 @@
     .content {
         width: 100%;
     }
-
-div#app {
-    padding: 5px;
-    position: unset;
-    overflow: auto;
-}
-    
-nav.navbar {
-    top: 0px;
-}
-.comment-text,.post-text {
-    font-size: 15px !important;
-}
-.fas, .far, .tag_bar > * {
-    font-size: 20px;
-    padding: 2px;
-}
-.post-content {
-    padding: 0px;
-}
-.post-content {
-    min-height: auto;
-}
-.crumbs:after {
-    position: unset;
-}
-.datebg {
-    font-size: 16px;
-}
-.fas, .far, .tag_bar > * {
-    font-size: 16px;
-}
-span.comments_count a {
-    font-size: 16px !important;
-}
-.row.w-100 {
-    margin-top: 5px;
-}
-.post-opt.col-12.col-md-6.text-right {
-    padding-right: 0px;
-}
-span.comments_count span::before {
-    font-size: 16px;
-}
 }
     
     .content {
